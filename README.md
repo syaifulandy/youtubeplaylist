@@ -12,4 +12,6 @@ Downloader ini merupakan pengembangan dari https://github.com/svass/youtube-play
 3. Untuk mengatur kualitas video, nilai 0 biasanya kualitas terbaik. List kualitas bisa dilakukan dengan: melakukan "print yt.streams.all()"
 4. Bisa ditambah kalau mau download caption: https://python-pytube.readthedocs.io/en/latest/
 
-Dokumentasi lebih lengkap dan pengembangan:  https://python-pytube.readthedocs.io/en/latest/
+# Notes
+1. Dokumentasi lebih lengkap untuk pengembangan lebih jauh:  https://python-pytube.readthedocs.io/en/latest/.
+2. Semoga bermanfaat dan mohon tidak disalahgunakan.
