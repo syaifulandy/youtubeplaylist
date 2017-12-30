@@ -9,3 +9,7 @@ Downloader ini merupakan pengembangan dari https://github.com/svass/youtube-play
 # How to Use
 1. Ubah link youtube ke playlist yang diinginkan : Link_playlist_url = "https://www.youtube.com/playlist?list=PLUYZIGi0rAXBBTLhdVPFTd6XvbTnTS2EG" 
 2. Tuliskan playlist yang tidak mau di download: jangandonlod = [1, 2, 3, 4, 5 , 6] --> tidak mendownload video ke 1-6 dalam playlist
+3. Untuk mengatur kualitas video, nilai 0 biasanya kualitas terbaik. List kualitas bisa dilakukan dengan: melakukan "print yt.streams.all()"
+4. Bisa ditambah kalau mau download caption: https://python-pytube.readthedocs.io/en/latest/
+
+Dokumentasi lebih lengkap dan pengembangan:  https://python-pytube.readthedocs.io/en/latest/
