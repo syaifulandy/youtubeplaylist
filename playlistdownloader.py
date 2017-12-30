@@ -52,6 +52,7 @@ if confirmation.lower() in ['y', '']:
         print yt.title
         print i
         stream = yt.streams.all()
+        #Mengatur kualitas video: 0 biasnya terbaik, dalam kasus ini 2 kualitasnya 360p
         stream = stream[2]
         print stream
         if (i in jangandonlod):
