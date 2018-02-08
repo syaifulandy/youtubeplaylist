@@ -7,6 +7,7 @@ Downloader ini merupakan pengembangan dari https://github.com/svass/youtube-play
 2. Install Pytube: pip install pytube
   
 Note: Untuk di windows, menginstal pytube dapat dilakukan dengan menggunakan command line (CMD), lalu pindah ke directory Script di folder  python ( cd C:\Python27\Scripts ), kemudian di CMD jalankan perintah : pip.exe install pytube
+Kadang ada perbedaan bila ada update versi baru, disini saya sudah mencoba berhasil di pytube versi 9.02, bila ingin menggunakan versi tertentu, caranya adalah dengan command berikut: pip install pytube==9.0.2
 
 ![Screenshot](pipwindows.JPG?raw=true "CMD Windows")
 
