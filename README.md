@@ -7,7 +7,7 @@ Downloader ini merupakan pengembangan dari https://github.com/svass/youtube-play
 2. Install Pytube: pip install pytube
   
 Note: Untuk di windows, menginstal pytube dapat dilakukan dengan menggunakan command line (CMD), lalu pindah ke directory Script di folder  python ( cd C:\Python27\Scripts ), kemudian di CMD jalankan perintah : pip.exe install pytube
-![Screenshoot](pipwindows.JPG?raw=true "CMD Windows")
+![Screenshot](pipwindows.JPG?raw=true "CMD Windows")
 
 # How to Use
 1. Download kode playlistdownloader.py, proses editing kode program sebaiknya dilakukan dengan program IDLE (setelah install Python v2.7x). Untuk memudahkan, kode program ini bisa diletakkan di folder tempat video playlist akan di download.
