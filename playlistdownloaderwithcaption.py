@@ -8,7 +8,6 @@ import pytube  # pip install pytube
 from pytube import YouTube
 
 #Link playlist
-#Link_playlist_url = "https://www.youtube.com/playlist?list=PLUuYlj8dcEXaLQpahB1KF4VdL5XcvtZQb"
 Link_playlist_url ="https://www.youtube.com/playlist?list=PLxhvVyxYRviZd1oEA9nmnilY3PhVrt4nj"
 
 def get_playlist_links(playlist_url):
