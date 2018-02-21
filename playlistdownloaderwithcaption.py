@@ -50,6 +50,7 @@ if confirmation.lower() in ['y', '']:
     for u in video_urls:
         yt = YouTube(u)
         print yt.title
+        #Download subtitle bahasa inggris (en)
         caption = yt.captions.get_by_language_code('en')
         file = open(yt.title+".srt","w")
         file.write(caption.generate_srt_captions())
