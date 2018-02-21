@@ -19,5 +19,5 @@ Kadang ada perbedaan bila ada update versi baru, disini saya sudah mencoba berha
 5. Untuk menjalankan program dari IDLE, klik menu run, pilih  run module (atau langsung tekan F5). Bila mengunakan cara ini, video akan tersimpan di folder yang sama dengan kode program.
 
 # Notes
-1. Dokumentasi lebih lengkap untuk pengembangan lebih jauh (nambah caption, progress bar, dll):  https://python-pytube.readthedocs.io/en/latest/.
+1. Dokumentasi lebih lengkap untuk pengembangan lebih jauh (progress bar, dll):  https://python-pytube.readthedocs.io/en/latest/.
 2. Semoga bermanfaat dan mohon tidak disalahgunakan.
