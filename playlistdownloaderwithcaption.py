@@ -8,6 +8,7 @@ import pytube  # pip install pytube
 from pytube import YouTube
 
 #Link playlist
+#Link_playlist_url = "https://www.youtube.com/playlist?list=PLUuYlj8dcEXaLQpahB1KF4VdL5XcvtZQb"
 Link_playlist_url ="https://www.youtube.com/playlist?list=PLxhvVyxYRviZd1oEA9nmnilY3PhVrt4nj"
 
 def get_playlist_links(playlist_url):
@@ -45,24 +46,25 @@ confirmation = raw_input('You are about to download {} videos to {}\nWould you l
 
 i = 1
 #Tuliskan playlist yang gak mau di donlod
-jangandonlod = []
+jangandonlod = [1,2,3,4,5,6,7,8,9,11,12,13,14]
 if confirmation.lower() in ['y', '']:
     for u in video_urls:
         yt = YouTube(u)
         print yt.title
-        #Download subtitle bahasa inggris (en)
-        caption = yt.captions.get_by_language_code('en')
-        file = open(yt.title+".srt","w")
-        file.write(caption.generate_srt_captions())
-        file.close()
         print i
-        stream = yt.streams.all()
-        stream = stream[2]
+        stream = yt.streams.filter(file_extension='mp4').all()
+        stream = stream[1]
         print stream
         if (i in jangandonlod):
             print "gak donlod"
         else:
             stream.download()
+            #Download caption/subtitle bahasa inggris (en)
+            caption = yt.captions.get_by_language_code('en')
+            file = open(yt.title+".srt","w")
+            file.write(caption.generate_srt_captions())
+            file.close()
+            
         i = i + 1
         #stream.download()
 print('Done')
